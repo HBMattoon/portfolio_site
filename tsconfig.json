@@ -1,13 +1,16 @@
+
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es2017",
-    "outDir": "server/compiled",
-    "declaration": true,
+    "outDir": "./dist/",
     "sourceMap": true,
-    "strict": true,
     "noImplicitAny": true,
-
-  },
-  "include": ["server/src"],
+    "module": "commonjs",
+    "target": "ES6",
+    "jsx": "react",
+    "allowJs": true
+  }
 }
+
+
+
+
